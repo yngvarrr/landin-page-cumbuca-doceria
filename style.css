@@ -8,6 +8,11 @@
     
 }
 
+a {
+    text-decoration: none;
+    color: var(--vermelho);
+}
+
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -55,4 +60,8 @@
 .sectionItem:hover {
     text-decoration: underline;
     font-size: 1.67em;
+}
+
+.pageContainer {
+
 }
