@@ -1,0 +1,58 @@
+:root {
+  --azul: #6c98fb;
+  --amarelo: #fcb326;
+  --vermelho: #ff5c84;
+}
+
+* {
+    
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: transparent;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.title1 {
+  font-family: "Poppins";
+  margin: 0.5em 0.2em;
+  color: var(--vermelho);
+}
+
+.title2 {
+  font-family: "Poppins";
+  margin: 0.5em 0.2em;
+  color: var(--azul);
+}
+
+.logo {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Poppins";
+}
+
+.sectionItem {
+  color: #ff5c84;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.sectionItem:hover {
+    text-decoration: underline;
+    font-size: 1.67em;
+}
